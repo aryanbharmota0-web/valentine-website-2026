@@ -4,58 +4,58 @@
 
 const CONFIG = {
     // Your Valentine's name that will appear in the title
-    valentineName: "Jacquie",
+    valentineName: "Shreya",
 
     // The title that appears in the browser tab
-    pageTitle: "Hey Jacquie 💗",
+    pageTitle: "Hey Shreya 🌺",
 
     // Floating emojis that appear in the background
     floatingEmojis: {
-        hearts: ['❤️', '💗', '💖'],
-        bears: ['🧸']
+        hearts: ['🤍', '💗'],
+        bears: ['🌺']
     },
 
     // Questions and answers
     questions: {
         first: {
-            text: "Can I tell you something, sweet girl?",
+            text: "Can I tell you something?",
             yesBtn: "Yeah",
             noBtn: "Maybe later",
-            secretAnswer: "I love you ❤️"
+            secretAnswer: "I like you 🌺"
         },
         second: {
-            text: "How much do you care about me?",
-            startText: "Like this much",
-            nextBtn: "Next 💗"
+            text: "How do you feel about us right now?",
+            startText: "Probably like this",
+            nextBtn: "Next"
         },
         third: {
-            text: "Will you be my Valentine this February 14th?",
-            yesBtn: "Yes 💕",
+            text: "Would you want to be my Valentine on February 14th?",
+            yesBtn: "Yes",
             noBtn: "Not yet"
         }
     },
 
     // Love meter messages
     loveMessages: {
-        extreme: "Okay wow… that’s a lot 🥰",
-        high: "That means more than you think 💗",
-        normal: "That’s really sweet"
+        extreme: "Okay… noted 🙂",
+        high: "That’s good to hear",
+        normal: "Fair enough"
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "You just made my day 💖",
+        title: "That means a lot",
         message: "I’m really glad it’s you.",
-        emojis: "💝🤍💗"
+        emojis: "🌺🤍"
     },
 
-    // Color scheme for the website
+    // Color scheme for the website (soft, muted floral tones)
     colors: {
-        backgroundStart: "#fbc2eb",
-        backgroundEnd: "#a6c1ee",
-        buttonBackground: "#ff6b81",
-        buttonHover: "#ff8fa3",
-        textColor: "#2f3542"
+        backgroundStart: "#ffe5ec",
+        backgroundEnd: "#ffd6a5",
+        buttonBackground: "#ff758f",
+        buttonHover: "#ff8fab",
+        textColor: "#2f2f2f"
     },
 
     // Animation settings
@@ -63,7 +63,7 @@ const CONFIG = {
         floatDuration: "16s",
         floatDistance: "45px",
         bounceSpeed: "0.5s",
-        heartExplosionSize: 1.4
+        heartExplosionSize: 1.3
     }
 };
 
