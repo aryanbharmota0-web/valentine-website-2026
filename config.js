@@ -3,65 +3,62 @@
 // ============================================
 
 const CONFIG = {
-    // Name shown across the site
     valentineName: "Shreya",
-
-    // Browser tab title
     pageTitle: "For Shreya 🧡",
 
-    // Floating background elements (full emoji vibe)
+    // Background emojis
     floatingEmojis: {
-        hearts: ['🧡', '🤍', '💛', '💖'],
-        flowers: ['🏵️', '🌼', '🌸'],
-        others: ['✨', '🌟', '💫']
+        hearts: ['🧡', '🤍'],
+        flowers: ['🏵️', '🌼'],
+        others: ['✨']
     },
 
-    // Messages & interactions
+    // Questions / interactions
     questions: {
         first: {
-            text: "Hey… I’ve been thinking about you a lot lately.",
-            yesBtn: "I’ve been thinking about you too 🧡",
-            noBtn: "Later maybe",
-            secretAnswer: "I miss you a lot and hope we can see each other soon 🌸"
+            text: "Hey Shreya, I miss you a lot 🌸",
+            yesBtn: "I miss you too 🧡",
+            noBtn: "Later",
+            secretAnswer: "Hopefully we can see each other soon"
         },
         second: {
-            text: "So… would you be my Valentine this February 14th?",
+            text: "Will you be my Valentine this February 14th?",
             yesBtn: "Yes 🧡",
-            noBtn: "Let’s see"
+            noBtn: "Maybe later"
         }
     },
 
-    // Slider / meter responses
+    // Messages shown during slider / interaction (optional)
     loveMessages: {
-        extreme: "Thinking about you makes me smile 🧡",
-        high: "Can’t wait to be together soon 💛",
-        normal: "Every moment matters 🤍"
+        extreme: "You make me really happy 🧡",
+        high: "I’m looking forward to seeing you 💛",
+        normal: "Every moment with you matters 🤍"
     },
 
-    // After a “yes”
+    // After the "Yes" response
     celebration: {
         title: "I love you 🧡",
-        message: "I’m so happy it’s you, Shreya.",
-        emojis: "🧡🏵️💛✨"
+        message: "I’m really happy it’s you, Shreya.",
+        emojis: "🧡🏵️💛"
     },
 
-    // Warm emoji-filled color palette
+    // Colors
     colors: {
-        backgroundStart: "#fff3e0",   // soft cream-orange
-        backgroundEnd: "#ff9f45",     // warm orange
-        buttonBackground: "#ff7a18",  // bold orange
+        backgroundStart: "#fff3e0",
+        backgroundEnd: "#ff9f45",
+        buttonBackground: "#ff7a18",
         buttonHover: "#ff9f45",
         textColor: "#2b1d0e"
     },
 
-    // Motion & animation
+    // Animations
     animations: {
         floatDuration: "12s",
-        floatDistance: "60px",  // bigger float for more dynamic emoji effect
+        floatDistance: "60px",
         bounceSpeed: "0.5s",
         heartExplosionSize: 1.3
     }
 };
 
-// Don't modify anything below this line unless you know what you're doing
+// Fix: assign the config globally
 window.VALENTINE_CONFIG = CONFIG;
