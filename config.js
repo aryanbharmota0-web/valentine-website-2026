@@ -1,67 +1,63 @@
 // ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
+// 🧡 PERSONAL VALENTINE PAGE FOR SHREYA 🧡
 // ============================================
 
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
+    // Name shown across the site
     valentineName: "Shreya",
 
-    // The title that appears in the browser tab
-    pageTitle: "Hey Shreya 🌺",
+    // Browser tab title
+    pageTitle: "For Shreya 🧡",
 
-    // Floating emojis that appear in the background
+    // Floating background elements (full emoji vibe)
     floatingEmojis: {
-        hearts: ['🤍', '💗'],
-        bears: ['🌺']
+        hearts: ['🧡', '🤍', '💛', '💖'],
+        flowers: ['🏵️', '🌼', '🌸'],
+        others: ['✨', '🌟', '💫']
     },
 
-    // Questions and answers
+    // Messages & interactions
     questions: {
         first: {
-            text: "Can I tell you something?",
-            yesBtn: "Yeah",
-            noBtn: "Maybe later",
-            secretAnswer: "I like you 🌺"
+            text: "Hey… I’ve been thinking about you a lot lately.",
+            yesBtn: "I’ve been thinking about you too 🧡",
+            noBtn: "Later maybe",
+            secretAnswer: "I miss you a lot and hope we can see each other soon 🌸"
         },
         second: {
-            text: "How do you feel about us right now?",
-            startText: "Probably like this",
-            nextBtn: "Next"
-        },
-        third: {
-            text: "Would you want to be my Valentine on February 14th?",
-            yesBtn: "Yes",
-            noBtn: "Not yet"
+            text: "So… would you be my Valentine this February 14th?",
+            yesBtn: "Yes 🧡",
+            noBtn: "Let’s see"
         }
     },
 
-    // Love meter messages
+    // Slider / meter responses
     loveMessages: {
-        extreme: "Okay… noted 🙂",
-        high: "That’s good to hear",
-        normal: "Fair enough"
+        extreme: "Thinking about you makes me smile 🧡",
+        high: "Can’t wait to be together soon 💛",
+        normal: "Every moment matters 🤍"
     },
 
-    // Messages that appear after they say "Yes!"
+    // After a “yes”
     celebration: {
-        title: "That means a lot",
-        message: "I’m really glad it’s you.",
-        emojis: "🌺🤍"
+        title: "I love you 🧡",
+        message: "I’m so happy it’s you, Shreya.",
+        emojis: "🧡🏵️💛✨"
     },
 
-    // Color scheme for the website (soft, muted floral tones)
+    // Warm emoji-filled color palette
     colors: {
-        backgroundStart: "#ffe5ec",
-        backgroundEnd: "#ffd6a5",
-        buttonBackground: "#ff758f",
-        buttonHover: "#ff8fab",
-        textColor: "#2f2f2f"
+        backgroundStart: "#fff3e0",   // soft cream-orange
+        backgroundEnd: "#ff9f45",     // warm orange
+        buttonBackground: "#ff7a18",  // bold orange
+        buttonHover: "#ff9f45",
+        textColor: "#2b1d0e"
     },
 
-    // Animation settings
+    // Motion & animation
     animations: {
-        floatDuration: "16s",
-        floatDistance: "45px",
+        floatDuration: "12s",
+        floatDistance: "60px",  // bigger float for more dynamic emoji effect
         bounceSpeed: "0.5s",
         heartExplosionSize: 1.3
     }
